@@ -44,4 +44,29 @@ div > img {
   }
   img {
     box-shadow: 7px 7px 10px #ffe26a;
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
+  @media screen and (min-width: 768px){
+    * {
+        text-align: center;
+        list-style-position: inside;
+    }
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
+    nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-top: 3vh;
+    }
+    .experience {
+        margin-right: 15vw;
+        margin-left: 15vw;
+    }
+  }
+    
+  
